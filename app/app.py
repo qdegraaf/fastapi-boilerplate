@@ -3,7 +3,9 @@ import logging
 from fastapi import FastAPI, Path, status
 from fastapi.responses import JSONResponse
 
-app = FastAPI(docs_url=None, redoc_url="/docs")
+app = FastAPI(
+    description="Boilerplate for minimal FastAPI app", docs_url=None, redoc_url="/docs"
+)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)

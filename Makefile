@@ -8,11 +8,6 @@ clean:
 install:
 	pip install -r requirements_dev.txt
 
-
-requirements:
-	pip install pip-tools
-	pip-compile
-
 # Testing
 test:
 	py.test tests/
