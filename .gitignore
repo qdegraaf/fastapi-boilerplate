@@ -1,0 +1,13 @@
+*.pyc
+*.egg-info
+
+__pycache__/
+.pytest_cache/
+.cache/
+.mypy_cache/
+
+.coverage
+pip-wheel-metadata/
+
+.tox/
+.coverage.*

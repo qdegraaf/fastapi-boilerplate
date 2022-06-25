@@ -1,0 +1,21 @@
+-r requirements.txt
+
+# Local Running
+uvicorn[standard]==0.18.1
+
+# Testing
+pytest==7.1.2
+pytest-mock==3.8.1.
+
+# Starlette needs:
+requests==2.28.0
+
+# Type hints
+mypy==0.960
+
+# Linting
+black
+flake8==4.0.1
+isort==5.10.1
+
+-e .
