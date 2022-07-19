@@ -1,4 +1,4 @@
-.PHONY: clean, install, requirements, test, coverage, format, lint, docs
+.PHONY: clean, install, test, coverage, format, lint
 
 clean:
 	find . -name '*.pyc' -delete
